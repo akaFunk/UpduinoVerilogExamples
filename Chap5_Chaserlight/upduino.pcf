@@ -1,0 +1,11 @@
+set_io LEDR    41
+set_io LEDG    40
+set_io LEDB    39
+set_io LED1    46
+set_io LED2    3
+set_io LED3    9
+set_io LED4    13
+set_io BTN1    47
+set_io BTN2    4
+set_io BTN3    11
+set_io BTN4    21
