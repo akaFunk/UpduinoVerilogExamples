@@ -30,7 +30,7 @@ each states it will light up one of the four LEDs. The states are
 ordered in a circle and a jump between two states happens when the
 button corresponding to the current light up LED is pressed.
 
-# Chapter 5 - Chaser Light
+## Chapter 5 - Chaser Light
 The state machine from chapter 4 is modified to not jump between the
 states by a press of a button, but instead a counter. This turns it into
 a chaser light.
