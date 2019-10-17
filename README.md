@@ -11,7 +11,9 @@ run to build the whole project and flash it onto the Upduino.
 
 ## Chapter 1 - No Logic
 This examples just shows how a bare metal Verilog file looks like.
-It just inverts a button and routes it to an LED.
+It just inverts a button and routes it to an LED. This example also
+contains a couple of files on how to simulate the verilog code using
+Icarus and gtkwave.
 
 ## Chapter 2 - Simple Logic
 This example shows basic logic in Verilog. It takes two buttons as
