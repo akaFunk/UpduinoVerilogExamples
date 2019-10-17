@@ -2,7 +2,7 @@
 These are a few examples for the Upduino v2.0 (Lattice ICE40 device)
 written in Verilog and designed to be used with icestorm. The examples
 are designed to be part of a very small Verlog/FPGA class. Some
-additional hardware is required. We used the custom made board at
+additional hardware is required. We used the custom made board from
 https://github.com/akaFunk/UpduinoLEDButtonExpander, but a bunch of
 buttons and LEDs on a breadboard will do the job.
 
