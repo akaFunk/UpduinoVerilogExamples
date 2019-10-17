@@ -40,7 +40,7 @@ module top
         LED2 = 0;
         LED3 = 0;
         LED4 = 0;
-        next_state <= state;
+        next_state = state;
         
         // Go through all states and decide what to do depending on other inputs
         case(state)
