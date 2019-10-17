@@ -40,3 +40,7 @@ button corresponding to the current light up LED is pressed.
 The state machine from chapter 4 is modified to not jump between the
 states by a press of a button, but instead a counter. This turns it into
 a chaser light.
+
+## Chapter 7 - Submodule
+Same functionality as the example from chapter 1 except a submodule is
+used to implement the inverting function.
