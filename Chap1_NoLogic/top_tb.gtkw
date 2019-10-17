@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Oct 17 15:18:33 2019
+[*]
+[dumpfile] "/home/fabian/src/UpduinoVerilogExamples/Chap1_NoLogic/top_tb.vcd"
+[dumpfile_mtime] "Thu Oct 17 15:17:18 2019"
+[dumpfile_size] 502
+[savefile] "/home/fabian/src/UpduinoVerilogExamples/Chap1_NoLogic/top_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -730 164
+*-4.933561 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top_tb.
+[sst_width] 223
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@28
+top_tb.toptest.BTN1
+@29
+top_tb.toptest.LED1
+[pattern_trace] 1
+[pattern_trace] 0
