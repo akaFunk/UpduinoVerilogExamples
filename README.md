@@ -20,29 +20,33 @@ This example shows basic logic in Verilog. It takes two buttons as
 inputs and only if both are pressed the LED lights up. The logic is
 implemented using the assign statement.
 
-## Chapter 3 - Simple Logic using always Block
+## Chapter 3 - Array
+This is the same example as from chapter 2, but it is using an array for
+the two buttons instead of individual wires.
+
+## Chapter 4 - Simple Logic using always Block
 This example shows exactly the same as the one before but implements
 the logic combination in an always block. It also introduces the if
 clause.
 
-## Chapter 4 - Blink
+## Chapter 5 - Blink
 We introduce the clocked always block and implement a counter. If the
 counter reaches a specific value the LED is turned on, while it is
 turned off otherwise. This example additionally shows how to initialize
 the internal clock source of an ICE40 FPGA.
 
-## Chapter 5 - Statemachine
+## Chapter 6 - Statemachine
 A simple state machine is introduced as state machines are crutial
 components in FPGA/CPLD design. The state machine has four states. In
 each states it will light up one of the four LEDs. The states are
 ordered in a circle and a jump between two states happens when the
 button corresponding to the current light up LED is pressed.
 
-## Chapter 6 - Chaser Light
+## Chapter 7 - Chaser Light
 The state machine from chapter 4 is modified to not jump between the
 states by a press of a button, but instead a counter. This turns it into
 a chaser light.
 
-## Chapter 7 - Submodule
+## Chapter 8 - Submodule
 Same functionality as the example from chapter 1 except a submodule is
 used to implement the inverting function.

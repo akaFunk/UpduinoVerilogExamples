@@ -1,0 +1,3 @@
+set_io LED1    46
+set_io BTN[0]  47
+set_io BTN[1]  4
