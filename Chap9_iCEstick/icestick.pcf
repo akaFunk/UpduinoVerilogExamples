@@ -1,0 +1,9 @@
+set_io clk     21
+set_io LED1    44
+set_io LED2    47
+set_io LED3    56
+set_io LED4    61
+set_io BTN1    45
+set_io BTN2    48
+set_io BTN3    60
+set_io BTN4    62

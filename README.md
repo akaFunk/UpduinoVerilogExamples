@@ -50,3 +50,24 @@ a chaser light.
 ## Chapter 8 - Submodule
 Same functionality as the example from chapter 1 except a submodule is
 used to implement the inverting function.
+
+## Chapter 9 - iCEstick
+This is the statemachine from chapter 5 but for the iCEstick. The only
+two differences are the pcf file for the pinout and the used clock
+source. While the Upduino v2.0 is using the internal HFOSC, the iCEstick
+uses the external 12 MHz oscillator.
+
+## Pinout
+Below is the pinout used for both the Upduino v2.0 and the iCEstick. The
+buttons are low-active, the LEDs are high-active.
+| Function | Upduino v2.0 | iCEstick |
+|----------|--------------|----------|
+| LED1     | 46           | 44       |
+| LED2     | 3            | 47       |
+| LED3     | 9            | 56       |
+| LED4     | 13           | 61       |
+| BTN1     | 47           | 45       |
+| BTN2     | 4            | 48       |
+| BTN3     | 11           | 60       |
+| BTN4     | 21           | 62       |
+| CLK      | (HFOSC)      | 21       |
