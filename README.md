@@ -60,6 +60,7 @@ uses the external 12 MHz oscillator.
 ## Pinout
 Below is the pinout used for both the Upduino v2.0 and the iCEstick. The
 buttons are low-active, the LEDs are high-active.
+
 | Function | Upduino v2.0 | iCEstick |
 |----------|--------------|----------|
 | LED1     | 46           | 44       |
