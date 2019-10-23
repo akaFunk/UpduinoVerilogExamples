@@ -10,8 +10,8 @@ module top
     begin
         // Invert button and assign the value to the LED
         if(~BTN1 & ~BTN2)
-            LED1 = 1;
+            LED1 <= 1;
         else
-            LED1 = 0;
+            LED1 <= 0;
     end    
 endmodule

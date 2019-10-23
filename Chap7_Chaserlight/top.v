@@ -38,35 +38,35 @@ module top
     always @ (counter, state)
     begin
         // Default values
-        LED1 = 0;
-        LED2 = 0;
-        LED3 = 0;
-        LED4 = 0;
-        next_state = state;
+        LED1 <= 0;
+        LED2 <= 0;
+        LED3 <= 0;
+        LED4 <= 0;
+        next_state <= state;
         
         // Go through all states and decide what to do depending on other inputs
         case(state)
             STATE_LED1:
             begin
-                LED1 = 1;
+                LED1 <= 1;
                 if(counter == 0)
                     next_state <= STATE_LED2;
             end
             STATE_LED2:
             begin
-                LED2 = 1;
+                LED2 <= 1;
                 if(counter == 0)
                     next_state <= STATE_LED3;
             end
             STATE_LED3:
             begin
-                LED3 = 1;
+                LED3 <= 1;
                 if(counter == 0)
                     next_state <= STATE_LED4;
             end
             STATE_LED4:
             begin
-                LED4 = 1;
+                LED4 <= 1;
                 if(counter == 0)
                     next_state <= STATE_LED1;
             end
